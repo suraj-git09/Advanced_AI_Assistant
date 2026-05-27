@@ -22,6 +22,8 @@ SQLite
 JSON storage
 OpenAI-compatible SDK
 Speech/audio libraries
+
+
 Project Structure
 bash
 ai_assistant/
@@ -33,7 +35,9 @@ ai_assistant/
 ├── nlp/
 ├── services/
 └── data/
+
 How it works
+
 User gives input by text or voice
 Intent classifier detects what the user wants
 Matching local command is executed if available
@@ -47,6 +51,9 @@ show notes
 system info
 what is the weather in delhi
 remind me to drink water in 5 minutes
+
+
+
 Setup
 Install dependencies:
 
